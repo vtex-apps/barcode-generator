@@ -10,6 +10,9 @@ export async function barcode(ctx: Context, next: () => Promise<any>) {
   const generatedBarcodeBuffer = await generateBarcode(orderId)
 
   ctx.status = 200
-  ctx.body = generatedBarcodeBuffer
+  if (generatedBarcodeBuffer) ctx.type = 'image/png'
+  ctx.body = generatedBarcodeBuffer.isError
+    ? generatedBarcodeBuffer
+    : generatedBarcodeBuffer.data
   await next()
 }
