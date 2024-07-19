@@ -1,7 +1,7 @@
 {
   "name": "barcode-generation",
-  "vendor": "vtexasia",
-  "version": "0.0.1",
+  "vendor": "vtex",
+  "version": "0.0.2",
   "title": "Barcode Generation app",
   "description": "Generating the barcode by embedding the VTEX orderId.",
   "mustUpdateAt": "2018-01-04",

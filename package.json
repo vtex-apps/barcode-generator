@@ -1,5 +1,5 @@
 {
-  "name": "service-example",
+  "name": "barcode-generation",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -31,7 +31,5 @@
     "prettier": "^2.2.1",
     "typescript": "^3.7.5"
   },
-  "dependencies": {
-    "jsbarcode": "^3.11.6"
-  }
+  "dependencies": {}
 }

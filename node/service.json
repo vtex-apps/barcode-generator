@@ -6,7 +6,7 @@
   "maxReplicas": 4,
   "routes": {
     "generate": {
-      "path": "/_v/generate/:orderId",
+      "path": "/_v/barcode/generate/:orderId",
       "public": true
     }
   }

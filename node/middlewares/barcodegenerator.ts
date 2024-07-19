@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { generateBarcode } from '../services/barcode'
 
 export async function barcode(ctx: Context, next: () => Promise<any>) {
