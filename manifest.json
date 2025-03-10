@@ -1,9 +1,9 @@
 {
-  "name": "service-example",
+  "name": "barcode-generation",
   "vendor": "vtex",
-  "version": "0.2.26",
-  "title": "Service Example",
-  "description": "Reference app for VTEX IO Services",
+  "version": "0.0.3",
+  "title": "Barcode Generation app",
+  "description": "Generating the barcode by embedding the VTEX orderId.",
   "mustUpdateAt": "2018-01-04",
   "categories": [],
   "dependencies": {},
